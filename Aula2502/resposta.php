@@ -32,12 +32,12 @@
         echo "A divisão dos dois valores é: $divisao";
         echo "<br/>";
         if($valor1 % 2 === 0){
-            echo "Valor 1 é par.";
+            echo "Valor 1 é par.<br/>";
         }else{
-            echo"Valor 1 é ímpar.";
+            echo"Valor 1 é ímpar.<br/>";
         }
         if ($valor2 % 2 === 0) {
-            echo"Valor 2 é par";
+            echo"Valor 2 é par.";
         }else {
             echo"Valor 2 é ímpar.";
         }
