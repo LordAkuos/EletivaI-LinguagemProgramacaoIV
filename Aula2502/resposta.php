@@ -17,7 +17,21 @@
     <?php 
         $valor1 = $_POST['valor1'];
         $valor2 = $_POST['valor2'];
-        echo "Valor 1: $valor1 Valor 2: $valor2"
+        echo "Valor 1: $valor1 Valor 2: $valor2";
+        echo "<br/>";
+        $soma = $valor1 + $valor2;
+        echo "A soma dos dois valores é: $soma";
+        echo "<br/>";
+        $subtracao = $valor1 - $valor2;
+        echo "A subtração dos dois valores é:  $subtracao";
+        echo "<br/>";
+        $multiplicacao = $valor1 * $valor2;
+        echo "A multiplicação dos dois valores é:  $multiplicacao";
+        echo "<br/>";
+        $divisao = $valor1 / $valor2;
+        echo "A divisão dos dois valores é: $divisao";
+        echo "<br/>";
+        
     ?>
    
     <!-- Optional JavaScript; choose one of the two! -->
