@@ -14,7 +14,7 @@
   <body class="container">
     <h1>Exemplo de Envio de Formulário</h1>
 
-    <form action="">
+    <form action="" method="get">
         <div class="row">
             <div class="col">
                 <label for="valor1" class="label-control">Informe o valor 1:</label>
@@ -27,7 +27,7 @@
         </div>
         <div class="row mt-5">
             <div class="col">
-                <button class="btn btn-danger">Enviar</button>
+                <button type="submit" class="btn btn-danger">Enviar</button>
             </div>
         </div>
     </form>   
