@@ -25,6 +25,11 @@
                 <input type="number" name="valor2" id="valor2" class="form-control">
             </div>
         </div>
+        <div class="row mt-5">
+            <div class="col">
+                <button class="btn btn-danger">Enviar</button>
+            </div>
+        </div>
     </form>   
 
     <!-- Optional JavaScript; choose one of the two! -->
