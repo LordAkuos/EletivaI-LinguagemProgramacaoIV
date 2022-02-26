@@ -31,7 +31,16 @@
         $divisao = $valor1 / $valor2;
         echo "A divisão dos dois valores é: $divisao";
         echo "<br/>";
-        
+        if($valor1 % 2 === 0){
+            echo "Valor 1 é par.";
+        }else{
+            echo"Valor 1 é ímpar.";
+        }
+        if ($valor2 % 2 === 0) {
+            echo"Valor 2 é par";
+        }else {
+            echo"Valor 2 é ímpar.";
+        }
     ?>
    
     <!-- Optional JavaScript; choose one of the two! -->
