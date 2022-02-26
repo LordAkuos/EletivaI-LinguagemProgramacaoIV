@@ -14,7 +14,7 @@
   <body class="container">
     <h1>Exemplo de Envio de Formulário</h1>
 
-    <form action="" method="post">
+    <form action="resposta.php" method="post">
         <div class="row">
             <div class="col">
                 <label for="valor1" class="label-control">Informe o valor 1:</label>

@@ -12,7 +12,12 @@
     <title>Hello, world!</title>
   </head>
   <body class="container">
-    <h1>Hello, world!</h1>
+    <h1>Cálculos</h1>
+
+    <?php 
+        $valor1 = $_POST['valor1'];
+        $valor2 = $_POST['valor2'];
+    ?>
    
     <!-- Optional JavaScript; choose one of the two! -->
 
