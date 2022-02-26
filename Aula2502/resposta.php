@@ -17,6 +17,7 @@
     <?php 
         $valor1 = $_POST['valor1'];
         $valor2 = $_POST['valor2'];
+        echo "Valor 1: $valor1 Valor 2: $valor2"
     ?>
    
     <!-- Optional JavaScript; choose one of the two! -->
