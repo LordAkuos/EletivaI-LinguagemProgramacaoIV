@@ -27,7 +27,7 @@
         </div>
         <div class="row mt-5">
             <div class="col">
-                <button type="submit" class="btn btn-danger">Enviar</button>
+                <button type="submit" class="btn btn-warning">Enviar</button>
             </div>
         </div>
     </form>   
