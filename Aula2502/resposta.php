@@ -28,9 +28,17 @@
         $multiplicacao = $valor1 * $valor2;
         echo "A multiplicação dos dois valores é:  $multiplicacao";
         echo "<br/>";
-        $divisao = $valor1 / $valor2;
+        if ($valor2 != 0) {
+          $divisao = $valor1 / $valor2;
+          echo "A divisão dos dois valores é: $divisao";
+          echo "<br/>";
+        }else {
+          echo "Divisão por zero!";
+          echo "<br/>";
+        }
+        /*$divisao = $valor1 / $valor2;
         echo "A divisão dos dois valores é: $divisao";
-        echo "<br/>";
+        echo "<br/>";*/
         if($valor1 % 2 === 0){
             echo "Valor 1 é par.<br/>";
         }else{
