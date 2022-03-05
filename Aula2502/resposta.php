@@ -53,6 +53,13 @@
         $resultado = $valor1 % 2 == 0 ? "Valor 1 é par!" : "Valor 1 é impar!";
         echo $resultado;
         echo "<br/>";
+
+        for ($i=0; $i < 10; $i++) { 
+          echo "Valor de i: $i</br>";
+        }
+        for ($i=0; $i < 10; ++$i) { 
+          echo "Valor de i: $i</br>";
+        }
     ?>
    
     <!-- Optional JavaScript; choose one of the two! -->
