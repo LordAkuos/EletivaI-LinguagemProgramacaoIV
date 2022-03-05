@@ -17,11 +17,11 @@
             <div class="row">
                 <div class="col">
                     <label for="valorproduto" class="label-control">Valor do Produto:</label>
-                    <input type="text" placeholder="R$ " id="valorproduto" class="form-control">
+                    <input type="number" name="valorproduto" placeholder="R$ " id="valorproduto" class="form-control">
                 </div>
                 <div class="col">
                     <label for="valorpago" class="label-control">Valor pago:</label>
-                    <input type="text" placeholder="R$ " id="valorpago" class="form-control">
+                    <input type="number" name="valorpago" placeholder="R$ " id="valorpago" class="form-control">
                 </div>
             </div>
             <div class="row mt-5">

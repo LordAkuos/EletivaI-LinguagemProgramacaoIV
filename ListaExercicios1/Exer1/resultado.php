@@ -19,7 +19,7 @@
 
             if ($valor2 >= $valor1) {
                 $troco = $valor2 - $valor1;
-                echo "Seu troco é: $troco</br>";
+                echo "Seu troco é: R$ $troco</br>";
             }else {
                 echo "Valor insuficiente!</br>";
             }
