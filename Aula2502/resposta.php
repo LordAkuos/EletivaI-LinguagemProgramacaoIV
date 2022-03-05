@@ -49,6 +49,10 @@
         }else {
             echo"Valor 2 é ímpar.";
         }
+
+        $resultado = $valor1 % 2 == 0 ? "Valor 1 é par!" : "Valor 1 é impar!";
+        echo $resultado;
+        echo "<br/>";
     ?>
    
     <!-- Optional JavaScript; choose one of the two! -->
