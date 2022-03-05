@@ -57,6 +57,8 @@
         for ($i=0; $i < 10; $i++) { 
           echo "Valor de i: $i</br>";
         }
+        echo "</br>";
+        echo "</br>";
         for ($i=0; $i < 10; ++$i) { 
           echo "Valor de i: $i</br>";
         }
