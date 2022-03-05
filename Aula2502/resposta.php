@@ -45,9 +45,9 @@
             echo"Valor 1 é ímpar.<br/>";
         }
         if ($valor2 % 2 === 0) {
-            echo"Valor 2 é par.";
+            echo"Valor 2 é par.<br/>";
         }else {
-            echo"Valor 2 é ímpar.";
+            echo"Valor 2 é ímpar.<br/>";
         }
 
         $resultado = $valor1 % 2 == 0 ? "Valor 1 é par!" : "Valor 1 é impar!";
