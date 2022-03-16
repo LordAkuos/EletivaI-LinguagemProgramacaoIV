@@ -25,7 +25,12 @@
             foreach($vetor as $chave => $valor){
                 echo "Posição do vetor: $chave e seu valor é $valor";
                 echo "<br>";
+                if ($valor > $maior) {
+                    $maior = $valor;
+                    $posicao = $chave;
+                }   
             }
+            echo "O maior valor é $maior e está na posição $chave";
 
         ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
