@@ -14,11 +14,17 @@
         <h1>Exercício 01</h1>
         <br>
         <form action="resultado.php" method="POST">
-            <div class="row">
-                <div class="col">
-                    <label for="valor1" class="label-control">Informe o valor 1:</label>
-                    <input type="number" name="valor1" placeholder="R$ " id="valor1" class="form-control">
-                </div>
+            <div class="row"> 
+                <?php
+                    for ($i=1; $i < 10; $i++) { 
+                ?>
+                    <div class="col">
+                        <label for="valor<?= $i ?>" class="label-control">Informe o valor <?= $i ?>:</label>
+                        <input type="number" name="valor<?= $i ?>" placeholder="R$ " id="valor<?= $i ?>" class="form-control">
+                    </div>
+                <?php
+                    }
+                ?>
             </div>
             <div class="row">
                 <div class="col">
