@@ -16,15 +16,25 @@
         <form action="resultado.php" method="POST">
            <div class="row">
                <?php
-                    for ($i=0; $i <= 20; $i++) { 
-                       while ($i >= 1 && $i <= 10){
+                    for ($i=1; $i <= 10; $i++) { 
                ?>
                 <div class="col">
                     <label for="valor<?= $i ?>">Informe o valor <?= $i ?></label>
-                    <input type="number" class="form-control" name="valor<?= $i ?>" id="valor<?= $i ?>">    
+                    <input type="number" class="form-control" name="valor<?= $i ?>" id="valor<?= $i ?>" min="1" max="10">    
                 </div>
                <?php
-                       }
+                    }
+               ?>
+           </div> 
+           <div class="row">
+               <?php
+                    for ($i=11; $i <= 20; $i++) { 
+               ?>
+                <div class="col">
+                    <label for="valor<?= $i ?>">Informe o valor <?= $i ?></label>
+                    <input type="number" class="form-control" name="valor<?= $i ?>" id="valor<?= $i ?>" min="1" max="10">    
+                </div>
+               <?php
                     }
                ?>
            </div> 
