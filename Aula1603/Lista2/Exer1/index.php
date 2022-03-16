@@ -20,7 +20,7 @@
                 ?>
                     <div class="col">
                         <label for="valor<?= $i ?>" class="label-control">Informe o valor <?= $i ?>:</label>
-                        <input type="number" name="valor<?= $i ?>" placeholder="R$ " id="valor<?= $i ?>" class="form-control">
+                        <input type="number" name="valor<?= $i ?>" id="valor<?= $i ?>" class="form-control">
                     </div>
                 <?php
                     }
