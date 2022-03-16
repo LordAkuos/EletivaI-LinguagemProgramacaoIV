@@ -16,7 +16,7 @@
         <form action="resultado.php" method="POST">
             <div class="row">
                 <div class="col">
-                    <label for="">Digite um número:</label>
+                    <label for="">Informe um número:</label>
                     <input type="text">
                 </div>
             </div>
