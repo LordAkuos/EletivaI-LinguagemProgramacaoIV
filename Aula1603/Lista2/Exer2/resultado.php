@@ -17,16 +17,20 @@
             for ($i=1; $i <= 20; $i++) { 
                 $vetor[$i] = $_POST["valor$i"];
             }
+            $existe = false;
             $numero = $_POST['valor_indicado'];
-            if ($numero == $vetor[$i]) {
-                foreach($vetor as $chave => $valor){
+            foreach($vetor as $chave => $valor){
+                if ($numero == $valor) {
+                    $existe = true;
                     echo "O valor $valor está na posição $chave";
                     echo "<br>";
-                }
-            } else {
-                echo "Valor não encontrado.<br>";
+                }   
             }
-        ?>
+            if (!$existe) {
+                echo "Valor não encontrado";
+                echo "<br>";
+            }
+    ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!--
