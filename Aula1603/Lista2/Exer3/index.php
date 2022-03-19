@@ -19,7 +19,7 @@
                     for ($i=1; $i <= 10; $i++) { 
                 ?>
                     <div class="col">
-                        <label for="valor<?= $i ?>">Informe o valor<?= $i ?></label>
+                        <label for="valor<?= $i ?>">Informe o valor <?= $i ?></label>
                         <input type="number" class="form-control" name="valor<?= $i ?>" id="valor<?= $i ?>">
                     </div>
                 <?php
