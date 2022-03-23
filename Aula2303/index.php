@@ -12,17 +12,18 @@
     </head>
     <body class="container">
         <h1>Funções</h1>
-        <br>
+        <br/>
         <?= date("d/m/Y"); ?>
-        <br>
+        <br/>
         <?= date("h:i"); ?>
-        <br>
+        <br/>
         <?php
             function formatarNumero($numero){
                 echo "R$ ".(number_format($numero,1,',','.'));
             }
             
             formatarNumero(10003.731);
+            echo "<br/>";
             formatarNumero(897.111);
             
         ?>
