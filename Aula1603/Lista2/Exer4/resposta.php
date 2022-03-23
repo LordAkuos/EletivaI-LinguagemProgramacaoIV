@@ -14,9 +14,13 @@
         <h1>Resposta do exercício 04</h1>
         <br/>
         <?php
+            $soma = 0;
             for ($i=1; $i <= 10; $i++){
                 $vetor[$i] = $_POST["valor$i"];
+                $soma = $soma + $vetor[$i];
             }
+            $media = $soma / $vetor;
+            echo "A média dos valores é $media";
         ?>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
