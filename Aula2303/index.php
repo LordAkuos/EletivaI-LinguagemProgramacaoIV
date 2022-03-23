@@ -21,10 +21,19 @@
             function formatarNumero($numero){
                 echo "R$ ".(number_format($numero,1,',','.'));
             }
+
+            function retornarNumero($numero){
+                return "R$ ".(number_format($numero,1,',','.'));
+            }
             
             formatarNumero(10003.731);
             echo "<br/>";
             formatarNumero(897.111);
+            echo "<br/>";
+            echo retornarNumero(2000.777);
+            $numero = retornarNumero(150.66);
+            echo "<br/>";
+            echo $numero;
             
         ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
