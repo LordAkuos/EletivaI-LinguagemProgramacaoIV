@@ -19,7 +19,7 @@
                 $vetor[$i] = $_POST["valor$i"];
                 $soma = $soma + $vetor[$i];
             }
-            $media = $soma / $vetor;
+            $media = $soma / $i;
             echo "A média dos valores é $media";
         ?>
 
