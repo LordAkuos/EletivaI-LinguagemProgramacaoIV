@@ -20,6 +20,7 @@
             sort($vetor);
             print_r($vetor);
             echo "<br>";
+            echo "<br>";
             rsort($vetor);
             print_r($vetor);
                     
