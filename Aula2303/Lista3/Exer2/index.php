@@ -29,7 +29,7 @@
             <br>
             <div class="row">
                 <div class="col">
-                    <button type="submit" class="btn btn-warning">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
             </div>
         </form>
