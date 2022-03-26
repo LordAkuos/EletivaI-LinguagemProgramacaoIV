@@ -26,6 +26,7 @@
                     }
                 ?>
             </div>
+            <br>
             <div class="row">
                 <div class="col">
                     <button type="submit" class="btn btn-warning">Enviar</button>
