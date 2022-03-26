@@ -11,7 +11,7 @@
         <title>Lista de exercícios 3</title>
     </head>
     <body class="container">
-        <h1>Exercício 01</h1>
+        <h1>Exercício 02</h1>
         <br/>
         <form action="resposta.php" method="POST">
             <div class="row">
