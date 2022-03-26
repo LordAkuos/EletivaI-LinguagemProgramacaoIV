@@ -19,7 +19,7 @@
                     for ($i=1; $i <= 10; $i++) { 
                 ?>
                     <div class="col">
-                        <label for="nome<?= $i ?>"><?= $i ?> Informe o nome:</label>
+                        <label for="nome<?= $i ?>"><?= $i ?> Informe o nome do aluno:</label>
                         <input type="text" class="form-control" name="nome<?= $i ?>" id="nome<?= $i ?>">
                     </div>
                 <?php
