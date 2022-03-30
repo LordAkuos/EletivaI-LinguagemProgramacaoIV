@@ -17,12 +17,12 @@
             <div class="row">
                 <div class="col">
                     <label for="numero" class="label-control">Informe um número:</label>
-                    <input type="number">
+                    <input type="number" id="numero" name="num" class="form-control">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button type="submit" class="btn btn-warning">Verificar</button>
+                    <button type="submit" class="btn btn-primary">Verificar</button>
                 </div>
             </div>
         </form>
