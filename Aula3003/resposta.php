@@ -14,18 +14,20 @@
         <h1>Sistema em PHP</h1>
         <br>
         <?php
-            $email = $_POST['email'];
-            $senha = $_POST['senha'];
-            /*setcookie("usuario", $email, time() + (86400 * 1), "/");
-            echo "Seja bem-vindo ".$_COOKIE['usuario'];*/
-            session_start();
-            if (($email == "filipe@gmail.com") && ($senha == '1234')) {
-                $_SESSION['usuario'] = $email;
-                $_SESSION['acesso'] = true;
-                echo "Bem-vindo usuário ".$_SESSION['usuario'];
-            }else {
-                header('Location: index.php');
-                exit;
+            if ($_POST) {
+                $email = $_POST['email'];
+                $senha = $_POST['senha'];
+                /*setcookie("usuario", $email, time() + (86400 * 1), "/");
+                echo "Seja bem-vindo ".$_COOKIE['usuario'];*/
+                session_start();
+                if (($email == "filipe@gmail.com") && ($senha == '1234')) {
+                    $_SESSION['usuario'] = $email;
+                    $_SESSION['acesso'] = true;
+                    echo "Bem-vindo usuário ".$_SESSION['usuario'];
+                }else {
+                    header('Location: index.php');
+                    exit;
+                }
             }
             
         ?>
