@@ -32,6 +32,8 @@
                                                 </label>
                                                 <input type="email" name="email" id="email" class="form-control">
                                             </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col">
                                                 <label for="senha" class="label-control">
                                                     Informe a senha:

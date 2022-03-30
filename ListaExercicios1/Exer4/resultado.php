@@ -11,9 +11,18 @@
         <title>Exercício 04</title>
     </head>
     <body class="container">
-        <h1>Verificar o número</h1>
+        <h1>Resposta do exercício 04</h1>
         <br>
-        
+        <?php
+            $numero = $_POST['num'];
+            if ($numero < 0) {
+                echo "Número negativo";
+            }elseif ($numero > 0) {
+                echo "Número positivo";
+            }else {
+                echo "Igual a zero";
+            }
+        ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!--
