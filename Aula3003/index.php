@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col"></div>
                 <div class="col">
-                    <div class="modal" tabindex="-1">
+                    <div class="modal" tabindex="-1" style="display: block;">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
