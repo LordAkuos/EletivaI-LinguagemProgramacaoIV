@@ -23,6 +23,9 @@
                 $_SESSION['usuario'] = $email;
                 $_SESSION['acesso'] = true;
                 echo "Bem-vindo usuário ".$_SESSION['email'];
+            }else {
+                header('Location: index.php');
+                exit;
             }
             
         ?>
