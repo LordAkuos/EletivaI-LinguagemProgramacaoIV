@@ -22,7 +22,7 @@
             if (($email == "filipe@gmail.com") && ($senha == '1234')) {
                 $_SESSION['usuario'] = $email;
                 $_SESSION['acesso'] = true;
-                echo "Bem-vindo usuário ".$_SESSION['email'];
+                echo "Bem-vindo usuário ".$_SESSION['usuario'];
             }else {
                 header('Location: index.php');
                 exit;
