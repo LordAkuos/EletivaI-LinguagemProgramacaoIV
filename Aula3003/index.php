@@ -21,11 +21,25 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Modal title</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <h5 class="modal-title">Acessar</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Modal body text goes here.</p>
+                                    <form action="resposta.php" method="POST">
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="email" class="label-control">
+                                                    Informe o e-mail:
+                                                </label>
+                                                <input type="email" name="email" id="email" class="form-control">
+                                            </div>
+                                            <div class="col">
+                                                <label for="senha" class="label-control">
+                                                    Informe a senha:
+                                                </label>
+                                                <input type="password" name="senha" id="senha" class="form-control">
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
