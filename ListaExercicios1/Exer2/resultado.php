@@ -11,9 +11,17 @@
         <title>Exercício 02</title>
     </head>
     <body class="container">
-        <h1>Resposta do exercício 02</h1>
+        <h1>Valor total do produto</h1>
         <br>
+        <?php
+            $valor1 = $_POST['quilo'];
+            $qtde = $_POST['qtde'];
+            $valorTotal = $valor1 * $qtde;
+
+            echo "O valor do total do produto é R$ $valortotal";
+
         
+        ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!--
