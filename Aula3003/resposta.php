@@ -15,8 +15,15 @@
         <br>
         <?php
             $email = $_POST['email'];
-            setcookie("usuario", $email, time() + (86400 * 1), "/");
-            echo "Seja bem-vindo ".$_COOKIE['usuario'];
+            $senha = $_POST['senha'];
+            /*setcookie("usuario", $email, time() + (86400 * 1), "/");
+            echo "Seja bem-vindo ".$_COOKIE['usuario'];*/
+            session_start();
+            if (($email == "filipe@gmail.com") && ($senha == '1234')) {
+                $_SESSION['usuario'] = $email;
+                $_SESSION['acesso'] = true;
+            }
+            
         ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
