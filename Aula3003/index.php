@@ -13,7 +13,7 @@
     <body class="container">
         <h1>Sistema em PHP</h1>
         <br>
-        <form action="resultado.php" method="POST">
+        <form action="resposta.php" method="POST">
             <div class="row">
                 <div class="col"></div>
                 <div class="col">

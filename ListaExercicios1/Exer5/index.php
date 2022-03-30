@@ -14,10 +14,19 @@
         <h1>Cálculo da média</h1>
         <br>
         <form action="resultado.php" method="POST">
-            
+            <?php
+                for ($i=1; $i <= 4; $i++) { 
+            ?>
+                <div class="col">
+                    <label for="nota<?= $i ?>" class="label-control">Informe a nota <?= $i ?> do aluno:</label>
+                    <input type="number" name="nota<?= $i ?>" id="nota<?= $i ?>" class="form-control">
+                </div>
+            <?php
+                }
+            ?>
             <div class="row">
                 <div class="col">
-                    <button type="submit" class="btn btn-warning">Calcular</button>
+                    <button type="submit" class="btn btn-warning">Calcular média</button>
                 </div>
             </div>
         </form>

@@ -11,9 +11,13 @@
         <title>Sistema em PHP</title>
     </head>
     <body class="container">
-        <h1>Calculadora de troco</h1>
+        <h1>Sistema em PHP</h1>
         <br>
-        
+        <?php
+            $email = $_POST['email'];
+            setcookie("usuario", $email, time() + (86400 * 1), "/");
+            echo "Seja bem-vindo ".$_COOKIE['usuario'];
+        ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!--
