@@ -28,6 +28,14 @@
                     header('Location: index.php');
                     exit;
                 }
+            }else {
+                session_start();
+                if ($_SESSION['acesso'] == true) {
+                    echo "Seja bem-vindo usuário ".$_SESSION['usuario'];                   
+                }else {
+                    header('Location: index.php');
+                    exit;
+                }
             }
             
         ?>
