@@ -16,8 +16,14 @@
         <form action="resultado.php" method="POST">
             <div class="row">
                 <div class="col">
-                    <label for="">Informe um número:</label>
-                    <input type="text">
+                    <label for="quilo" class="label-control">Informe o valor por quilo do produto:</label>
+                    <input type="number" id="quilo" class="form-control" placeholder="R$">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="qtde" class="label-control">Informe a quantidade do produto:</label>
+                    <input type="number" id="qtde" class="form-control">
                 </div>
             </div>
         </form>
