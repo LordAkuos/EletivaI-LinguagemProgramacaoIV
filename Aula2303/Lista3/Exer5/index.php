@@ -11,10 +11,24 @@
         <title>Lista de exercícios 3</title>
     </head>
     <body class="container">
-        <h1>Exercício 05</h1>
+        <h1>Exercício 05 - Cálculo do IMC</h1>
         <br/>
-        <form action="" method="POST">
-            
+        <form action="resultado.php" method="POST">
+            <div class="row">
+                <div class="col">
+                    <label for="peso" class="label-control">Informe o seu peso:</label>
+                    <input type="float" class="form-control" id="peso" name="peso">
+                </div>
+                <div class="col">
+                    <label for="altura" class="label-control">Informe a sua altura:</label>
+                    <input type="float" class="form-control" id="altura" name="altura">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+            </div>
         </form>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
