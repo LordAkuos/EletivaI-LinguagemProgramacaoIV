@@ -24,6 +24,7 @@
                     <input type="float" class="form-control" id="altura" name="altura">
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-4">
                     <button type="submit" class="btn btn-success">Calcular</button>
