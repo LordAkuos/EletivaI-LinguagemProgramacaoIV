@@ -13,6 +13,26 @@
     <body class="container">
         <h1>Resposta do exercício 04</h1>
         <br/>
+        <?php
+            
+            function somaDivisores($numero){
+                $soma = 0;
+                for ($i=1; $i < $numero; $i++) { 
+                    if ($numero % $i == 0) {
+                        $soma = $soma + $i;
+                    }
+                }
+                return $soma;
+            }
+
+            for ($i=1; $i <= 5; $i++) { 
+                $vetor[$i] = $_POST["numero$i"];
+            }
+
+            foreach ($vetor as $numero) {
+                echo "O valor da soma dos divisores é: ".somaDivisores($numero);
+            }
+        ?>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->
