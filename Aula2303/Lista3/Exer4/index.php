@@ -15,7 +15,7 @@
         <br/>
         <form action="" method="POST">
             <?php
-                for ($i=0; $i <= 5; $i++) { 
+                for ($i=1; $i <= 5; $i++) { 
             ?>
                 <div class="col">
                     <label for="numero">Informe o <?= $i ?>º número:</label>
