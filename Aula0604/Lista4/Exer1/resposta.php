@@ -18,7 +18,8 @@
             if ($_POST) {
                 $tempo = $_POST['tempo'];
                 session_start();
-                
+                $maior = 0;
+                $menor = 0;
             }
 
         ?>
