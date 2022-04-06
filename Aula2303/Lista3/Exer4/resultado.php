@@ -30,7 +30,7 @@
             }
 
             foreach ($vetor as $numero) {
-                echo "O valor da soma dos divisores é: ".somaDivisores($numero);
+                echo "O valor da soma dos divisores é: ".somaDivisores($numero)."<br>";
             }
         ?>
         
