@@ -20,19 +20,19 @@
                 if ($imc <= 18.5) {
                     echo "IMC: ".$imc." Abaixo do peso.";
                 }
-                else if ($imc >= 18.6 && $imc <= 24.9){
+                elseif ($imc >= 18.6 && $imc <= 24.9){
                     echo "IMC: ".$imc." Peso ideal (Parabéns!).";
                 }
-                else if ($imc >= 25 && $imc <= 29.9){
+                elseif ($imc >= 25 && $imc <= 29.9){
                     echo "IMC: ".$imc." Levemente acima do peso.";
                 }
-                else if ($imc >= 30 && $imc <= 34.9) {
+                elseif ($imc >= 30 && $imc <= 34.9) {
                     echo "IMC: ".$imc." Obesidade grau I.";
                 }
-                else if ($imc >= 35 && $imc <= 39.9) {
+                elseif ($imc >= 35 && $imc <= 39.9) {
                     echo "IMC: ".$imc." Obesidade grau II (severa).";
                 }
-                else if ($imc >= 40) {
+                elseif ($imc >= 40) {
                     echo "IMC: ".$imc." Obesidade grau III (mórbida).";
                 }
                 return $imc;
