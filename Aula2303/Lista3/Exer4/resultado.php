@@ -26,7 +26,7 @@
             }
 
             for ($i=1; $i <= 5; $i++) { 
-                $vetor[$i] = $_POST["numero$i"];
+                $vetor[$i] = $_POST["numero"];
             }
 
             foreach ($vetor as $numero) {
