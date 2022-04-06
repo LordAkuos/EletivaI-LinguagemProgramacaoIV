@@ -18,8 +18,8 @@
                 for ($i=0; $i <= 5; $i++) { 
             ?>
                 <div class="col">
-                    <label for="numero<?= $i ?>"><?= $i ?> Informe o <?= $i ?>º número:</label>
-                    <input type="text" class="form-control" name="numero<?= $i ?>" id="numero<?= $i ?>">
+                    <label for="numero"><?= $i ?> Informe o <?= $i ?>º número:</label>
+                    <input type="text" class="form-control" name="numero" id="numero">
                 </div>
             <?php
                 }
