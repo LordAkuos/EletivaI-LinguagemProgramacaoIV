@@ -28,7 +28,9 @@
                 </div>
             </div>
             <div class="row">
-                <button type="submit" class="btn btn-primary">Somar</button>
+                <div class="col">
+                    <button type="submit" class="btn btn-primary">Somar</button>
+                </div>
             </div>
         </form>
         <?php
