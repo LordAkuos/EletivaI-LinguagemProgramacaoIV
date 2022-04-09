@@ -22,6 +22,7 @@
                 $maior = 0;
                 $menor = 0;
                 for ($i=0; $i < $volta; $i++) { 
+                    
                     if ($tempo > $maior) {
                         $maior = $tempo;
                     }
@@ -29,6 +30,7 @@
                         $menor = $tempo;
                     }
                 }
+                
             }
 
         ?>
