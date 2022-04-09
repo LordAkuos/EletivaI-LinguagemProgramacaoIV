@@ -14,7 +14,22 @@
         <h1>Resposta do Exercício 02</h1>
         <br/>
         <?php
-        
+            if ($_POST) {
+                $valor_cheque = $_POST['valor_cheque'];
+                session_start();
+                $cheque = $_POST['num_cheque'];
+                $valor = $_POST['total'];
+                $soma = 0;
+                for ($i=0; $i < $cheque; $i++) { 
+                    $soma = $soma + $valor_cheque[$i];
+                    return $soma;
+                }
+                if ($soma === $valor) {
+                    echo "Lote OK.";
+                }elseif ($soma < $valor) {
+                    echo "Diferença negativa.";
+                }
+            }
         
         ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
