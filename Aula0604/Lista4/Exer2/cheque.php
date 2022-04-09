@@ -11,30 +11,28 @@
         <title>Lista de exercícios 4</title>
     </head>
     <body class="container">
-        <h1>Resposta do exercício 01</h1>
+        <h1>Exercício 02 - Verificar cheques e soma</h1>
         <br/>
         <?php
+            session_start();
+            $cheque = $_POST['num_cheque'];
+            $_SESSION['num_cheque'] = $cheque;
+            for ($i=1; $i <= $cheque; $i++) { 
         
-            if ($_POST) {
-                $tempo = $_POST['tempo'];
-                session_start();
-                $volta = $_SESSION['voltas'];
-                $maior = 0;
-                $menor = 100;
-                for ($i=0; $i < $volta; $i++) { 
-                    if ($tempo[$i] > $maior) {
-                        $maior = $tempo[$i];
-                        return $maior;
-                    }
-                    if ($tempo[$i] < $menor[$i]) {
-                        $menor = $tempo;
-                        return $menor;
-                    }
-                }
-                echo "O maior tempo foi: ".$maior."<br>";
-                echo "O menor tempo foi: ".$menor."<br>";
+        ?>
+        <form action="resposta.php" method="POST">
+            <div class="row">
+                <div class="col">
+                    <label for="valor_cheque">Informe o valor do <?= $i ?>º cheque:</label>
+                    <input type="float" id="valor_cheque" name="valor_cheque" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit" class="btn btn-primary">Somar</button>
+            </div>
+        </form>
+        <?php
             }
-
         ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <!-- Option 2: Separate Popper and Bootstrap JS -->

@@ -13,11 +13,20 @@
     <body class="container">
         <h1>Exercício 02</h1>
         <br/>
-        <form action="" method="POST">
-            
+        <form action="cheque.php" method="POST">
+            <div class="row">
+                <div class="col">
+                    <label for="num_cheque" class="label-control">Número de cheques:</label>
+                    <input type="number" id="num_cheque" name="num_cheque" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="total" class="label-control">Soma total dos cheques:</label>
+                    <input type="float" class="form-control" id="total" name="total" placeholder="R$">
+                </div>
+            </div>
             <br>
             <div class="row">
-                <button type="submit" class="btn btn-warning">Cadastrar tempos</button>
+                <button type="submit" class="btn btn-danger">Verificar soma</button>
             </div>
         </form>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
