@@ -22,15 +22,19 @@
                 $maior = 0;
                 $menor = 0;
                 for ($i=0; $i < $volta; $i++) { 
-                    
+                    $maior = $tempo;
+                    $menor = $tempo;
                     if ($tempo > $maior) {
                         $maior = $tempo;
+                        return $maior;
                     }
                     if ($tempo < $menor) {
                         $menor = $tempo;
+                        return $menor;
                     }
                 }
-                
+                echo "O maior tempo foi: ".$maior."<br>";
+                echo "O menor tempo foi: ".$menor."<br>";
             }
 
         ?>
