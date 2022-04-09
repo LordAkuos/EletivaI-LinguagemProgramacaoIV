@@ -18,8 +18,17 @@
             if ($_POST) {
                 $tempo = $_POST['tempo'];
                 session_start();
+                $volta = $_SESSION['voltas'];
                 $maior = 0;
                 $menor = 0;
+                for ($i=0; $i < $volta; $i++) { 
+                    if ($tempo > $maior) {
+                        $maior = $tempo;
+                    }
+                    if ($tempo < $menor) {
+                        $menor = $tempo;
+                    }
+                }
             }
 
         ?>

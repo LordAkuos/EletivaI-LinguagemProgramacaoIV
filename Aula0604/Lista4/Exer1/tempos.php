@@ -14,8 +14,9 @@
         <h1>Exercício 01 - Cadastrar tempos</h1>
         <br/>
         <?php
-
+            session_start();
             $voltas = $_POST['voltas'];
+            $_SESSION['voltas'] = $voltas;
             for ($i=1; $i <= $voltas; $i++) { 
         
         ?>
