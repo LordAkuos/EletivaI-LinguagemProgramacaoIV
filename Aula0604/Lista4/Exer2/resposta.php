@@ -22,7 +22,7 @@
                 for ($i=1; $i <= $cheque; $i++) { 
                     $valor_cheque[$i] = $_POST['valor_cheque'.$i];
                     $soma = $soma + $valor_cheque[$i];
-                    return $soma;
+                    //return $soma;
                 }
                 if ($soma == $valor) {
                     echo "Lote OK!";
