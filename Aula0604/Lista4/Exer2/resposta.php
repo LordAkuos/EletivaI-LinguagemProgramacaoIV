@@ -16,7 +16,7 @@
         <?php
             if ($_POST) {
                 session_start();
-                $valor_cheque = $_POST['cheque'];
+                $valor_cheque = $_POST['valor_cheque'];
                 $cheque = $_POST['num_cheque'];
                 $valor = $_POST['total'];
                 $soma = 0;
