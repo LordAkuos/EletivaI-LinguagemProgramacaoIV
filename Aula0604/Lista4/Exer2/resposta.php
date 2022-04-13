@@ -16,15 +16,15 @@
         <?php
             if ($_POST) {
                 session_start();
-                $valor_cheque = $_POST['valor_cheque'];
                 $cheque = $_SESSION['num_cheque'];
                 $valor = $_SESSION['total'];
                 $soma = 0;
                 for ($i=0; $i <= $cheque; $i++) { 
+                    $valor_cheque[$i] = $_POST['valor_cheque'];
                     $soma = $soma + $valor_cheque[$i];
                     return $soma;
                 }
-                if ($soma === $valor) {
+                if ($soma == $valor) {
                     echo "Lote OK.";
                 }elseif ($soma < $valor) {
                     echo "Diferença negativa.";
