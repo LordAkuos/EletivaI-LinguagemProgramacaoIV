@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col">
                         <label for="valor_cheque">Informe o valor do <?= $i ?>º cheque:</label>
-                        <input type="float" id="valor_cheque" name="valor_cheque" class="form-control">
+                        <input type="float" id="valor_cheque" name="valor_cheque" class="form-control" placeholder="R$">
                     </div>
                 </div>
             <?php
