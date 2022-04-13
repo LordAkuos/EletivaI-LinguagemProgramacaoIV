@@ -18,9 +18,9 @@
                 session_start();
                 $cheque = $_SESSION['num_cheque'];
                 $valor = $_SESSION['total'];
+                $valor_cheque = $_POST['valor_cheque'];
                 $soma = 0;
                 for ($i=1; $i <= $cheque; $i++) { 
-                    $valor_cheque = $_POST['valor_cheque'];
                     $soma = $soma + $valor_cheque[$i];
                     return $soma;
                 }
