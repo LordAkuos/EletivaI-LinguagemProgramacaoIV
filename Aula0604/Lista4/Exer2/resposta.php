@@ -20,7 +20,6 @@
                 $valor = $_SESSION['total'];
                 $soma = 0;
                 for ($i=0; $i <= $cheque; $i++) { 
-                    $valor_cheque[$i] = $_POST['valor_cheque'];
                     $soma = $soma + $valor_cheque[$i];
                     return $soma;
                 }
