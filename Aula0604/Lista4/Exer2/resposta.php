@@ -25,6 +25,7 @@
                     //return $soma;
                 }
                 if ($soma == $valor) {
+                    echo "A soma deu: $soma<br>";
                     echo "Lote OK!";
                 }elseif ($soma < $valor) {
                     echo "Diferença negativa.";
