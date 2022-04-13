@@ -15,10 +15,10 @@
         <br/>
         <?php
             if ($_POST) {
+                $valor_cheque = $_POST['valor_cheque'];
                 session_start();
                 $cheque = $_SESSION['num_cheque'];
                 $valor = $_SESSION['total'];
-                $valor_cheque = $_POST['valor_cheque'];
                 $soma = 0;
                 for ($i=1; $i <= $cheque; $i++) { 
                     $soma = $soma + $valor_cheque[$i];
