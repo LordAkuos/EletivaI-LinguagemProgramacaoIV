@@ -17,6 +17,7 @@
             <?php
                 session_start();
                 $cheque = $_POST['num_cheque'];
+                $total = $_SESSION['total'];
                 $_SESSION['num_cheque'] = $cheque;
                 for ($i=1; $i <= $cheque; $i++) { 
             
