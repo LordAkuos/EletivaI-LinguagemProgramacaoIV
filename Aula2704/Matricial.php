@@ -7,7 +7,12 @@ class Matricial extends Impressora {
 
     public function __construct($marca, $modelo, $numAgulhas, $colorida, $imprimeVias, $peso)
     {
-        $this->marca = $marca;
+        $this->setMarca($marca);
+        $this->setModelo($modelo);
+        $this->setNumAgulhas($numAgulhas);
+        $this->setColorida($colorida);
+        $this->setImprimeVias($imprimeVias);
+        $this->setPeso($peso);
     }
 
     public function getNumAgulhas(){
