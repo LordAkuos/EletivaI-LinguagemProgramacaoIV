@@ -17,6 +17,12 @@
             require_once("Impressora.php");
             require_once("Matricial.php");
             require_once("Laser.php");
+
+            $impressora = new Impressora();
+            $impressora->setMarca("Classe Impressora!");
+
+            $matricial = new Matricial("HP", "01", 10, true, true, 10);
+            
         
         ?>
         
