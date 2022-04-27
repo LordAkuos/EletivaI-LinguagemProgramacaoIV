@@ -5,6 +5,16 @@ class Laser extends Impressora
     private $capacidadeToner;
     private $frenteVerso;
 
+    public function __construct($modelo, $capacidadeToner, $colorida, $marca, $peso, $frenteVerso)
+    {
+        $this->setModelo($modelo);
+        $this->setCapacidadeToner($capacidadeToner);
+        $this->setColorida($colorida);
+        $this->setMarca($marca);
+        $this->setPeso($peso);
+        $this->setFrenteVerso($frenteVerso);
+    }
+
     public function getCapacidadeToner(){
         return $this->capacidadeToner;
     }
