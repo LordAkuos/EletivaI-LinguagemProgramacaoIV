@@ -14,7 +14,9 @@
         <br/>
         <?php
         
-            
+            require_once("Impressora.php");
+            require_once("Matricial.php");
+            require_once("Laser.php");
         
         ?>
         
