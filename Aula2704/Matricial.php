@@ -5,6 +5,11 @@ class Matricial extends Impressora {
     private $numAgulhas;
     private $imprimeVias;
 
+    public function __construct()
+    {
+        
+    }
+
     public function getNumAgulhas(){
         return $this->numAgulhas;
     }
