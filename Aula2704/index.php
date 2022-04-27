@@ -22,7 +22,10 @@
             $impressora->setMarca("Classe Impressora!");
 
             $matricial = new Matricial("HP", "01", 10, true, true, 10);
-            
+
+            var_dump($impressora);
+            echo "<br>";
+            var_dump($matricial);
         
         ?>
         
