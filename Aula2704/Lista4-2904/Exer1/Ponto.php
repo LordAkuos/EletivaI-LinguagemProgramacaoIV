@@ -13,11 +13,13 @@ class Ponto {
     }
 
     public function calcularDistancia(Ponto $p){
-        
+        $valorX = pow(($p->getX - $this->x), 2); 
+        $valorY = pow(($p->getY - $this->y), 2);
+        return sqrt($valorX + $valorY);
     }
 
     private static function setContador(){
-           self::$contador++;//Usa-se self:: para acessar atributos de classe (estáticos)!
+        self::$contador++;//Usa-se self:: para acessar atributos de classe (estáticos)!
     }
     public static function getContador(){
         return self::$contador;
