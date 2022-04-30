@@ -12,6 +12,10 @@ class Ponto {
         $this->setY($y);
     }
 
+    public function calcularDistancia(Ponto $p){
+        
+    }
+
     private static function setContador(){
            self::$contador++;//Usa-se self:: para acessar atributos de classe (estáticos)!
     }
