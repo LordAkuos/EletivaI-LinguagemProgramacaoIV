@@ -4,7 +4,7 @@ class Ponto {
 
     private $x;
     private $y;
-    private static $contador;
+    private static $contador = 0;
 
     public function __construct($x, $y)
     {
