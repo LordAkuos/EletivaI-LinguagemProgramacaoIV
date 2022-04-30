@@ -18,6 +18,12 @@ class Ponto {
         return sqrt($valorX + $valorY);
     }
 
+    public function calcularDistanciaXy($x2, $y2){
+        $valorX = pow(($x2 - $this->x), 2); 
+        $valorY = pow(($y2 - $this->y), 2);
+        return sqrt($valorX + $valorY);
+    }
+
     private static function setContador(){
         self::$contador++;//Usa-se self:: para acessar atributos de classe (estáticos)!
     }
