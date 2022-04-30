@@ -18,7 +18,7 @@ class Ponto {
         return sqrt($valorX + $valorY);
     }
 
-    public function calcularDistanciaXy($x2, $y2){
+    public function calcularDistancia2($x2, $y2){
         $valorX = pow(($x2 - $this->x), 2); 
         $valorY = pow(($y2 - $this->y), 2);
         return sqrt($valorX + $valorY);
