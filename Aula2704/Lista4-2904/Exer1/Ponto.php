@@ -12,8 +12,8 @@ class Ponto {
         $this->setY($y);
     }
 
-    public static function setContador(){
-           self::$contador;//Usa-se self:: para acessar atributos de classe (estáticos)!
+    private static function setContador(){
+           self::$contador++;//Usa-se self:: para acessar atributos de classe (estáticos)!
     }
     public static function getContador(){
         return self::$contador;
