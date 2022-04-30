@@ -13,7 +13,7 @@ class Ponto {
     }
 
     public static function setContador($contador){
-           self::$contador = $contador;
+           self::$contador = $contador;//Usa-se self:: para acessar atributos de classe (estáticos)!
     }
     public static function getContador(){
         return self::$contador;
