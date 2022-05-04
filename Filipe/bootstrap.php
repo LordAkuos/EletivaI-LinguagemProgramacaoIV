@@ -20,5 +20,5 @@ $result = $router->handler();
 if (!$result) {
     http_response_code(404);
     echo "Página não encontrada";
-    die;
+    die();
 }
