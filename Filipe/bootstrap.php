@@ -22,3 +22,5 @@ if (!$result) {
     echo "Página não encontrada";
     die();
 }
+
+echo $result($router->getParams());
