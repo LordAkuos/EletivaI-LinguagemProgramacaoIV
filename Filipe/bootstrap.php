@@ -8,3 +8,7 @@ $path = $_SERVER['PATH_INFO'];
 
 //INstanciar classe Router:
 $router = new \Aluno\Filipe\Router($method, $path);
+
+//Adicionar as rotas válidas abaixo:
+
+//Adicionar as rotas válidas acima
