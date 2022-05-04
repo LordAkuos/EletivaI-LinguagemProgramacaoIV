@@ -11,7 +11,9 @@ $router = new \Aluno\Filipe\Router($method, $path);
 
 //Adicionar as rotas válidas abaixo:
 
-
+$router->get('/ola-mundo', function(){
+    return "Olá Mundo!";
+});
 
 //Adicionar as rotas válidas acima
 
