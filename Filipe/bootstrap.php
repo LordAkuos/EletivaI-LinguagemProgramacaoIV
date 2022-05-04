@@ -11,4 +11,8 @@ $router = new \Aluno\Filipe\Router($method, $path);
 
 //Adicionar as rotas válidas abaixo:
 
+
+
 //Adicionar as rotas válidas acima
+
+$result = $router->handler();
