@@ -1,0 +1,16 @@
+{
+    "name": "aluno/filipe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Filipe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Filipe Primo de Oliveira",
+            "email": "filipe.oliveira13@fatec.sp.gov.br"
+        }
+    ],
+    "require": {}
+}
