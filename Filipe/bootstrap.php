@@ -17,6 +17,8 @@ $router->get('/ola-mundo', function(){
 
 $router->get('/exemplo', 'Aluno\Filipe\Controller\ExercicioController::exibir');
 
+$router->post('/exemplo-resultado', 'Aluno\Filipe\Controller\ExercicioController::exibirResultado');
+
 //Adicionar as rotas válidas acima
 
 $result = $router->handler();

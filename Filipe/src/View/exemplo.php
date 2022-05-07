@@ -13,7 +13,7 @@
   </head>
   <body class="container">
     <h1>Exemplo</h1>
-    <form action="">
+    <form action="/exemplo-resultado" method="POST">
         <div class="row">
             <div class="col">
                 <label for="valor1" class="label-control">Valor 1</label>
