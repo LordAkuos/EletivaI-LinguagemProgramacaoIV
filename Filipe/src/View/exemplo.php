@@ -32,6 +32,11 @@
         </div>
     </form>
 
+    <?php
+        if (isset($soma))
+            echo "O valor da soma é $soma";
+    ?>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
