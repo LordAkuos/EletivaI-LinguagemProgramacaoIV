@@ -31,7 +31,7 @@
             </div>
         </div>
     </form>
-
+    <br>
     <?php
         if (isset($soma))
             echo "O valor da soma é $soma";
