@@ -12,8 +12,25 @@
     <title>Hello, world!</title>
   </head>
   <body class="container">
-    <h1>Hello, world!</h1>
-    
+    <h1>Exemplo</h1>
+    <form action="">
+        <div class="row">
+            <div class="col">
+                <label for="valor1" class="label-control">Valor 1</label>
+                <input type="text" class="form-control" name="valor1" id="valor1">
+            </div>
+            <div class="col">
+                <label for="valor2" class="label-control">Valor 2</label>
+                <input type="text" class="form-control" name="valor2" id="valor2">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Ok</button>
+            </div>
+        </div>
+    </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
