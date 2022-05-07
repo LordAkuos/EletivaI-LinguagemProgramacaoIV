@@ -6,7 +6,7 @@ require_once __DIR__.'/vendor/autoload.php';
 $method = $_SERVER['REQUEST_METHOD'];
 $path = $_SERVER['PATH_INFO'];
 
-//INstanciar classe Router:
+//Instanciar classe Router:
 $router = new \Aluno\Filipe\Router($method, $path);
 
 //Adicionar as rotas válidas abaixo:
