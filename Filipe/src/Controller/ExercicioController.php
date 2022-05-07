@@ -7,6 +7,6 @@ namespace Aluno\Filipe\Controller;
 class ExercicioController
 {
     public static function exibir(){
-        require_once("exemplo.php");
+        require_once("../src/View/exemplo.php");
     }
 }
