@@ -14,6 +14,13 @@
     <?php require_once "barra_navegacao.php"; ?>
     <h1>Clientes</h1>
     <br>
+    <div class="alert alert-success" role="alert">
+        Registro inserido com sucesso!
+    </div>
+    <div class="alert alert-danger" role="alert">
+        Erro ao inserir registro.
+    </div>
+    <br>
     <table class="table table-hover">
         <thead>
             <tr>
