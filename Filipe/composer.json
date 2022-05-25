@@ -1,15 +1,14 @@
 {
-    "name": "aluno/filipe",
-    "type": "project",
+    "name": "aluno/projeto-php",
     "autoload": {
         "psr-4": {
-            "Aluno\\Filipe\\": "src/"
+            "Aluno\\ProjetoPhp\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Filipe Primo de Oliveira",
-            "email": "filipe.oliveira13@fatec.sp.gov.br"
+            "name": "Vanessa Borges",
+            "email": "vanessa.borges2@fatec.sp.gov.br"
         }
     ],
     "require": {}

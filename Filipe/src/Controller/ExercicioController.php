@@ -1,14 +1,16 @@
 <?php
 
 
-namespace Aluno\Filipe\Controller;
+namespace Aluno\ProjetoPhp\Controller;
 
 
 class ExercicioController
 {
+
     public static function exibir(){
         require_once("../src/View/exemplo.php");
     }
+
 
     public static function exibirResultado(){
         $valor1 = $_POST['valor1'];
