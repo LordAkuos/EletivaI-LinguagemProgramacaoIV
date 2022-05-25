@@ -14,14 +14,20 @@
     <?php require_once "barra_navegacao.php"; ?>
     <h1>Clientes</h1>
     <br>
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        Registro inserido com sucesso!
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        Erro ao inserir registro.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    <?php
+        if ($resposta){
+            echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+            Registro inserido com sucesso!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>';
+        }
+        else {
+            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Erro ao inserir registro.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>';
+        }
+    ?>
     <br>
     <table class="table table-hover">
         <thead>
