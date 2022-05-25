@@ -12,9 +12,7 @@
   </head>
   <body class="container">
     <h1>Inserir Cliente</h1>
-
     
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
