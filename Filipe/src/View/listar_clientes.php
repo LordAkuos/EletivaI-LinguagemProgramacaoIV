@@ -16,9 +16,11 @@
     <br>
     <div class="alert alert-success" role="alert">
         Registro inserido com sucesso!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     <div class="alert alert-danger" role="alert">
         Erro ao inserir registro.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     <br>
     <table class="table table-hover">
