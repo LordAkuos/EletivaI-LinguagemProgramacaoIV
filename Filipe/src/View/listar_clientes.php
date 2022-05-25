@@ -13,6 +13,7 @@
   <body class="container">
     <?php require_once "barra_navegacao.php"; ?>
     <h1>Clientes</h1>
+    <br>
     
     <!-- Optional JavaScript; choose one of the two! -->
 
