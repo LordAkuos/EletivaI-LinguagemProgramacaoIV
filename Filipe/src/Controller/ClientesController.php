@@ -11,6 +11,10 @@ class ClientesController{
         require_once "../src/View/inserir_cliente.php";
     }
 
+    public static function abrirListaClientes(){
+        require_once "../src/View/listar_clientes.php";
+    }
+
     public static function inserirCliente(){
         $cliente = new Clientes();
         $cliente->setEmail($_POST['email']);
