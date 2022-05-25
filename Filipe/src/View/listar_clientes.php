@@ -15,17 +15,19 @@
     <h1>Clientes</h1>
     <br>
     <?php
-        if ($resposta){
-            echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
-            Registro inserido com sucesso!
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>';
-        }
-        else {
-            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
-            Erro ao inserir registro.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>';
+        if (isset($resposta)) {
+            if ($resposta){
+                echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                Registro inserido com sucesso!
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>';
+            }
+            else {
+                echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                Erro ao inserir registro.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>';
+            }
         }
     ?>
     <br>
