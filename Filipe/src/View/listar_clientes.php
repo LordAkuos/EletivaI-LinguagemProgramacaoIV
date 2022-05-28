@@ -46,7 +46,10 @@
                     <th scope="row"><?= $linha['id'] ?></th>
                     <td><?= $linha['nome'] ?></td>
                     <td><?= $linha['email'] ?></td>
-                    <td><a>Alterar</a><a> Excluir</a></td>
+                    <td>
+                        <a class="btn btn-warning">Alterar</a>
+                        <a class="btn btn-danger"> Excluir</a>
+                    </td>
                 </tr>
             <?php } ?> 
         </tbody>
