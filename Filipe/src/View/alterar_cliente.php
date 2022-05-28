@@ -14,7 +14,7 @@
     <?php require_once "barra_navegacao.php"; ?>
     <h1>Alterar Cliente</h1>
 
-    <form action="/cliente/editar/{<?= $id ?>}" method="post">
+    <form action="/cliente/editar/{<?= $params[1] ?>}" method="post">
         <div class="row">
             <div class="col-5">
                 <label for="nome" class="label-control">
