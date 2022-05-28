@@ -40,10 +40,9 @@
         </div>
         <div class="row">
             <div class="col mt-5">
-                <button type="submit" 
-                        class="btn btn-primary">
+                <button type="submit" class="btn btn-primary">
                     Enviar
-                    </button>
+                </button>
             </div>
         </div>
 
