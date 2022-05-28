@@ -26,7 +26,8 @@ class ClientesController{
         } else {
             $resposta = false;
         }
-        require_once "../src/View/listar_clientes.php";
+        ClientesController::abrirListaClientes();
+        ;
     }
 
 }
