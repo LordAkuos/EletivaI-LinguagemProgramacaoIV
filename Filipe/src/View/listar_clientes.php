@@ -44,9 +44,9 @@
             <?php while($linha = $resultado->fetch(PDO::FETCH_ASSOC)){ ?>
                 <tr>
                     <th scope="row"><?= $linha['id'] ?></th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td><?= $linha['nome'] ?></td>
+                    <td><?= $linha['email'] ?></td>
+                    <td><a>Alterar</a><a> Excluir</a></td>
                 </tr>
             <?php } ?> 
         </tbody>
