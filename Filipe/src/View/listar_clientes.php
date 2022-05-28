@@ -43,7 +43,7 @@
         <tbody>
             <?php while($linha = $resultado->fetch(PDO::FETCH_ASSOC)){ ?>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row"><?= $linha['id'] ?></th>
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
