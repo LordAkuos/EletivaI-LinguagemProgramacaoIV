@@ -13,7 +13,7 @@ class ClientesController{
 
     public static function abrirFormularioAlterar($params){
         $dao = new ClientesDAO();
-        $resultado = $dao->consultarPorId($params['id']);
+        $resultado = $dao->consultarPorId($params[1]);
         require_once "../src/View/alterar_cliente.php";
     }
 
