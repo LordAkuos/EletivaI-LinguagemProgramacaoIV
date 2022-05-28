@@ -29,7 +29,6 @@ class ClientesController{
             $resposta = false;
         }
         ClientesController::abrirListaClientes();
-        ;
     }
 
 }
