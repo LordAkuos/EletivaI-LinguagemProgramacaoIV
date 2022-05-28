@@ -37,6 +37,9 @@ $router->get('/cliente/alterar/{id}',
 $router->post('/cliente/editar/{id}',
 'Aluno\ProjetoPhp\Controller\ClientesController::editarCliente');
 
+$router->get('/cliente/excluir/{id}',
+'Aluno\ProjetoPhp\Controller\ClientesController::excluirCliente');
+
 //ADICIONAR AS ROTAS VÁLIDAS ACIMA
 
 $result = $router->handler();
