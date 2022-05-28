@@ -47,8 +47,8 @@
                     <td><?= $linha['nome'] ?></td>
                     <td><?= $linha['email'] ?></td>
                     <td>
-                        <a href="/cliente/excluir/<?= $linha['id'] ?>" class="btn btn-warning">Alterar</a>
-                        <a href="/cliente/alterar/<?= $linha['id'] ?>" class="btn btn-danger"> Excluir</a>
+                        <a href="/cliente/alterar/<?= $linha['id'] ?>" class="btn btn-warning">Alterar</a>
+                        <a href="/cliente/excluir/<?= $linha['id'] ?>" class="btn btn-danger"> Excluir</a>
                     </td>
                 </tr>
             <?php } ?> 
