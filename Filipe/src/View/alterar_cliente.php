@@ -21,21 +21,21 @@
                     Informe o nome:
                 </label>
                 <input type="text" class="form-control"
-                        name="nome" id="nome"/>
+                        name="nome" id="nome" value="<?= $resultado['nome'] ?>"/>
             </div>
             <div class="col-5">
                 <label for="email" class="label-control">
                     Informe o email:
                 </label>
                 <input type="text" class="form-control"
-                        name="email" id="email"/>
+                        name="email" id="email" value="<?= $resultado['email'] ?>"/>
             </div>
             <div class="col-2">
                 <label for="idade" class="label-control">
                     Informe a idade:
                 </label>
                 <input type="number" class="form-control"
-                        name="idade" id="idade"/>
+                        name="idade" id="idade" value="<?= $resultado['idade'] ?>"/>
             </div>
         </div>
         <div class="row">
