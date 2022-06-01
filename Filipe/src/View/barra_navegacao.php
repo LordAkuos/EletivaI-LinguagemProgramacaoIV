@@ -8,7 +8,17 @@
       <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/clientes">
-              Clientes
+              Listar Clientes
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/cliente/novo">
+              Novo Cliente
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/produtos">
+              Produtos
             </a>
         </li>
       </ul>
