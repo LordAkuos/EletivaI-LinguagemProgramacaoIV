@@ -13,6 +13,14 @@ class PRodutosDAO {
             return false;
         }
     }
+
+    public function consultar(){
+        
+    }
+
+    public function excluir($id){
+
+    }
 }
 
 ?>
