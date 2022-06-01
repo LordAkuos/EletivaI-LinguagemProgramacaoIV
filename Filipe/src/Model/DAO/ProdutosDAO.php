@@ -9,8 +9,8 @@ class PRodutosDAO {
         try {
             $sql = "INSERT INTO `produtos`(`nome`, `descricao`, `valor`) VALUES (:nome, :descricao, :valor)";
             $p = Conexao::conectar()->prepare($sql);
-        } catch (\Throwable $th) {
-            //throw $th;
+        } catch (\Exception $e) {
+            return false;
         }
     }
 }
