@@ -11,5 +11,6 @@ class ExercicioController {
         $valorTotal = $valor1 * $qtde;
 
         echo "O valor do total do produto é R$ $valorTotal";
+        require_once("../src/View/exer2.php");
     }
 }
