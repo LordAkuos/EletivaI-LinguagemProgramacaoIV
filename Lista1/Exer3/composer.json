@@ -1,0 +1,15 @@
+{
+    "name": "aluno/exer3",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Exer3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LordAkuos",
+            "email": "99516082+LordAkuos@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
