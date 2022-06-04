@@ -18,7 +18,7 @@
             $qtde = $_POST['qtde'];
             $valorTotal = $valor1 * $qtde;
 
-            echo "O valor do total do produto é R$ $valortotal";
+            echo "O valor do total do produto é R$ $valorTotal";
 
         
         ?>
