@@ -30,6 +30,7 @@
                 </div>
             </div>
         </form>
+        <br>
         <?php
             if (isset($troco)) {
                 echo "Seu troco é de R$ $troco";

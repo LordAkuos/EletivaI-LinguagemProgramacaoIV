@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App;
+namespace Aluno\Exer1composer;
 
 
 class Router
