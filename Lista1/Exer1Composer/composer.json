@@ -1,0 +1,15 @@
+{
+    "name": "aluno/exer1composer",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Exer1composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LordAkuos",
+            "email": "99516082+LordAkuos@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
