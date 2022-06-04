@@ -7,7 +7,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $path = $_SERVER['PATH_INFO'];
 
 //Instanciar classe Router:
-$router = new \Aluno\Lista1\Exer2\src\Router($method, $path);
+$router = new \Aluno\Filipe\Lista1\Exer3\src\Router($method, $path);
 
 //Adicionar as rotas válidas abaixo:
 
@@ -15,9 +15,9 @@ $router->get('/ola-mundo', function(){
     return "Olá Mundo!";
 });
 
-$router->get('/exemplo', 'Aluno\Lista1\Exer2\Controller\ExercicioController::exibir');
+$router->get('/exemplo', 'Aluno\Filipe\Lista1\Exer1\Controller\ExercicioController::exibir');
 
-$router->post('/exemplo-resultado', 'Aluno\Lista1\Exer2\Controller\ExercicioController::exibirResultado');
+$router->post('/exemplo-resultado', 'Aluno\Filipe\Lista1\Exer1\Controller\ExercicioController::exibirResultado');
 
 //Adicionar as rotas válidas acima
 
