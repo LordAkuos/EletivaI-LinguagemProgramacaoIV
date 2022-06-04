@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Aluno\Lista1\Exer1Composer\Controller;
+namespace Aluno\Exer1composer\Controller;
 
 
 class ExercicioController
