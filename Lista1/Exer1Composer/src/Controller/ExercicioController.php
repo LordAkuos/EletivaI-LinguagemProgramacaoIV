@@ -7,7 +7,7 @@ namespace Aluno\Exer1composer\Controller;
 class ExercicioController
 {
     public static function exibir(){
-        require_once("../src/View/exemplo.php");
+        require_once("../src/View/exer1.php");
     }
 
     public static function exibirResultado(){
