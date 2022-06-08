@@ -15,9 +15,9 @@ $router->get('/ola-mundo', function(){
     return "Olá Mundo!";
 });
 
-$router->get('/exemplo', 'Aluno\Exer4\Controller\ExercicioController::exibir');
+$router->get('/exemplo', 'Aluno\Exer5\Controller\ExercicioController::exibir');
 
-$router->post('/exemplo-resultado', 'Aluno\Exer4\Controller\ExercicioController::exibirResultado');
+$router->post('/exemplo-resultado', 'Aluno\Exer5\Controller\ExercicioController::exibirResultado');
 
 //Adicionar as rotas válidas acima
 

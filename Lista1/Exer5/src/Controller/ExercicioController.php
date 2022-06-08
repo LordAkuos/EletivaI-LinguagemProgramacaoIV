@@ -1,6 +1,6 @@
 <?php
 
-namespace Aluno\Exer4\Controller;
+namespace Aluno\Exer5\Controller;
 
 
 class ExercicioController {
