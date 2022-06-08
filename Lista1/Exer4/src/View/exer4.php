@@ -20,6 +20,7 @@
                     <input type="number" id="num" name="num" class="form-control">
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col">
                     <button type="submit" class="btn btn-danger">Enviar</button>

@@ -5,6 +5,10 @@ namespace Aluno\Exer3\Controller;
 
 
 class ExercicioController {
+    public static function exibir(){
+        require_once("../src/View/exer3.php");
+    }
+
     public static function exibirResultado(){
         $num = $_POST['numero'];
         if ($num < 10) {
