@@ -13,7 +13,7 @@
     <body class="container">
         <h1>Calculadora de troco</h1>
         <br>
-        <form action="resultado.php" method="POST">
+        <form action="/exemplo-resultado" method="POST">
             <div class="row">
                 <div class="col">
                     <label for="quilo" class="label-control">Informe o valor por quilo do produto:</label>

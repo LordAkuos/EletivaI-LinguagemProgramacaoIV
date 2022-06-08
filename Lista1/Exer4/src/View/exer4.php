@@ -13,7 +13,7 @@
     <body class="container">
         <h1>Verificar o número</h1>
         <br>
-        <form action="Router.php" method="POST">
+        <form action="/exemplo-resultado" method="POST">
             <div class="row">
                 <div class="col-6">
                     <label for="num" class="label-control">Informe um número</label>
