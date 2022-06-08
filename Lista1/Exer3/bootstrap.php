@@ -7,7 +7,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $path = $_SERVER['PATH_INFO'];
 
 //Instanciar classe Router:
-$router = new Aluno\Exer1composer\Router($method, $path);
+$router = new Aluno\Exer3\Router($method, $path);
 
 //Adicionar as rotas válidas abaixo:
 

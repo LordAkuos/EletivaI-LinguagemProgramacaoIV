@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Aluno\Exer2;
+namespace Aluno\Exer4;
 
 
 class Router
