@@ -21,6 +21,7 @@
                     <label for="nota<?= $i ?>" class="label-control">Informe a nota <?= $i ?> do aluno:</label>
                     <input type="number" name="nota<?= $i ?>" id="nota<?= $i ?>" class="form-control">
                 </div>
+                <br>
             <?php
                 }
             ?>
