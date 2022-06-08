@@ -4,6 +4,10 @@ namespace Aluno\Exer5\Controller;
 
 
 class ExercicioController {
+    public static function exibir(){
+        require_once("../src/View/exer5.php");
+    }
+    
     public static function exibirResultado(){
         $soma = 0;
         for ($i=1; $i <= 4; $i++) { 

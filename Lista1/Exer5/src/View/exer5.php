@@ -13,7 +13,7 @@
     <body class="container">
         <h1>Cálculo da média</h1>
         <br>
-        <form action="resultado.php" method="POST">
+        <form action="/exemplo-resultado" method="POST">
             <?php
                 for ($i=1; $i <= 4; $i++) { 
             ?>
@@ -33,8 +33,8 @@
         <br>
         <?php
         
-            if (isset($media)) {
-                echo "A média do aluno é $media";
+            if (isset($exibirMedia)) {
+                echo $exibirMedia;
             }
         
         ?>
