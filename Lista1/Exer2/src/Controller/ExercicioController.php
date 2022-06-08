@@ -5,6 +5,10 @@ namespace Aluno\Exer2\Controller;
 
 
 class ExercicioController {
+    public static function exibir(){
+        require_once("../src/View/exer2.php");
+    }
+    
     public static function exibirResultado(){
         $valor1 = $_POST['quilo'];
         $qtde = $_POST['qtde'];

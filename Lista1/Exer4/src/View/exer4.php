@@ -29,15 +29,8 @@
         <br>
         <?php
         
-        if (isset($numero)) {
-            $numero = $_POST['num'];
-            if ($numero < 0) {
-                echo "Número negativo";
-            }elseif ($numero > 0) {
-                echo "Número positivo";
-            }else {
-                echo "Igual a zero";
-            }
+        if (isset($resultado)) {
+            echo $resultado;
         }
 
         ?>
